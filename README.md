@@ -16,7 +16,7 @@ _Failure to make an attendance check will result in an unexcused absence for bot
 
 ## Project Proposals:
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Tuesday, Sept 21st by 10:45PM EST**.  Make sure you complete **all of the prompts**.  
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Sat, August 20th by 11am EST**.  Make sure you complete **all of the prompts**.  
 
 Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
