@@ -68,7 +68,7 @@ We will walk through deploying your app to production next week. We'll use a ser
 
 [Heroku Node App Deployment Docs](https://devcenter.heroku.com/categories/nodejs-support)
 
-To prepare for the Heroku deployment lesson on **SEPTEMBER 28th**, please make sure have a GitHub repository for your project and have a basic express server running.
+To prepare for the Heroku deployment lesson on **August 27th**, please make sure have a GitHub repository for your project and have a basic express server running.
 
 
 ## Technical Demonstration
