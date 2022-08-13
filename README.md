@@ -157,11 +157,5 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 - [Drawing with Friends](https://drawing-with-friends.online/)
 - [Brain Defogger](https://baindefogger.herokuapp.com/)
-- [flyerPole](https://flyerpole.herokuapp.com/)
-- [LeagueManager](https://aqueous-harbor-40707.herokuapp.com/)
 - [Yarn](https://thawing-chamber-93915.herokuapp.com/)
-- [GitFit](https://salty-springs-24805.herokuapp.com/)
-- [Civilized Coffee](https://infinite-shelf-28534.herokuapp.com/)
-- [Pitched](https://pitched-app.herokuapp.com/)
-- [PC Builder](https://pc-builder.herokuapp.com/)
 - [Women of STEM](https://womenofstem.herokuapp.com/astro)
