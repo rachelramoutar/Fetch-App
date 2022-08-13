@@ -9,14 +9,14 @@ There are no full day classes during project weeks, but we expect you to be work
 
 We also will take attendance during project week, as follows:
 
-  - **Daily (Each Class Day)**: Your attendance will be taken during **STANDUP meetings starting Tuesday, Sept 21st**.
-  - **Saturday, October 2nd**: Project presentation day! You're required to be in the class zoom starting at 10:00 AM EST
+  - **Daily (Each Class Day)**: Your attendance will be taken during standups
+  - **Wed, August 31st: Project presentation day! You're required to be in the class zoom starting at 6:30PPM EST
 
 _Failure to make an attendance check will result in an unexcused absence for both morning or/and afternoon for that day_.
 
 ## Project Proposals:
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-bromeliad/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Tuesday, Sept 21st by 10:45PM EST**.  Make sure you complete **all of the prompts**.  
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Tuesday, Sept 21st by 10:45PM EST**.  Make sure you complete **all of the prompts**.  
 
 Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
@@ -48,7 +48,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 #### Recommended Features
 
 * Add a second model that is associated in some way (e.g. one-to-many, many-to-many, etc)
-  - Here are some reference notes if you are interested [Mongoose Associations](https://git.generalassemb.ly/seirfx-bromeliad/mongoose-associations)
+  - Here are some reference notes if you are interested [Mongoose Associations](https://git.generalassemb.ly/seirfx-cosmos/mongoose-associations)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow
 * Use EJS Partials
 * Include portfolio-quality styling
@@ -89,7 +89,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 Your project is due on **Saturday, October 2nd at 10:00 AM ET**. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-bromeliad/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
+:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
 
 Your issue should include:
 
