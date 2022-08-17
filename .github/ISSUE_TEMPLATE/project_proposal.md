@@ -1,7 +1,7 @@
 ---
 name: Project Proposal
 about: Project 2 proposal template
-title: Your Name
+title: Your Name (Group #)
 labels: ''
 assignees: ''
 
