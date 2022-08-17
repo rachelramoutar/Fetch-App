@@ -3,20 +3,20 @@
 # Project #2: Building Your First Full-Stack Application
 
 ## Attendance
-We will be holding stand ups with instructors at **6:45PM EST (Tuesday/Wednesday) and 11:00AM EST (Saturday)** to have a daily check on the progress your application.
+We will be holding stand ups with instructors to have a daily check on the progress your application.
 
-There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM EST (Tues/Wed)** and at least **10AM - 6PM EST (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
+There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Tues/Wed)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
 
 We also will take attendance during project week, as follows:
 
   - **Daily (Each Class Day)**: Your attendance will be taken during standups
-  - **Wed, August 31s**t: Project presentation day! You're required to be in the class zoom starting at 6:30PPM EST
+  - **Wed, August 31st**: Project presentation day! You're required to be in the class zoom starting at 6:30PM ET
 
 _Failure to make an attendance check will result in an unexcused absence for both morning or/and afternoon for that day_.
 
 ## Project Proposals:
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Sat, August 20th by 11am EST**.  Make sure you complete **all of the prompts**.  
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Sat, August 20th by 6pm ET**.  Make sure you complete **all of the prompts**.  
 
 Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
@@ -48,13 +48,13 @@ For this project, you will be making a full CRUD app using the technologies outl
 #### Recommended Features
 
 * Add a second model that is associated in some way (e.g. one-to-many, many-to-many, etc)
-  - Here are some reference notes if you are interested [Mongoose Associations](https://git.generalassemb.ly/seirfx-cosmos/mongoose-associations)
+  - If you are interested [Mongoose Associations](https://mongoosejs.com/docs/populate.html)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow
 * Use EJS Partials
 * Include portfolio-quality styling
 * Use a CSS framework like Skeleton, Bootstrap, Materialize, etc...
 * Use a third party API
-* Incorporate **Google Maps**
+* Incorporate **Google Maps** or **MapBox**
 * Allow users to upload files with **Multer**
 * Enable real time communication with **socket.io**
 
@@ -87,7 +87,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 ## How to Submit Your Project
 
-Your project is due on **Saturday, October 2nd at 10:00 AM ET**. You will present your project and show your code to classmates and instructors.
+Your project is due on **Wednesday, August 31st at 5:30PM ET**. You will present your project and show your code to classmates and instructors.
 
 :heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
 
@@ -149,7 +149,7 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 * **[Mongo Documentation](https://docs.mongodb.com/manual/)**
 * **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/seirfx-bromeliad/student-resources/blob/main/2_full_stack_dev/week_12/3_sat/instructor_notes/mongo_cheatsheet.md)**
+* **[Mongo Cheatsheet](https://git.generalassemb.ly/seirfx-cosmos/student-resources/wiki/Mongo-Cheatsheet)**
 </details>
 <hr>  
 
@@ -157,5 +157,8 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 - [Drawing with Friends](https://drawing-with-friends.online/)
 - [Brain Defogger](https://baindefogger.herokuapp.com/)
-- [Yarn](https://thawing-chamber-93915.herokuapp.com/)
-- [Women of STEM](https://womenofstem.herokuapp.com/astro)
+- [CrimeFlix](https://crimeflix.herokuapp.com/user)
+- [SkillUP](https://skillupapp.herokuapp.com/login)
+- [Ken's Kitchen](http://kenskitchen.herokuapp.com/)
+- [Poetry Wall](https://poetry-wall.herokuapp.com/poems)
+- [Travel Planning](https://travel-planning-project.herokuapp.com/)
