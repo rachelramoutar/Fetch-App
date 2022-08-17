@@ -1,7 +1,7 @@
 ---
 name: Project Submission
 about: Project 2 - Express CRUD Application
-title: Your Name
+title: Your Name (Group #)
 labels: ''
 assignees: ''
 ---
