@@ -10,7 +10,7 @@ There are no full day classes during project weeks, but we expect you to be work
 We also will take attendance during project week, as follows:
 
   - **Daily (Each Class Day)**: Your attendance will be taken during standups
-  - **Wed, August 31st**: Project presentation day! You're required to be in the class zoom starting at 6:30PM ET
+  - **Wed, March 18th**: Project presentation day! You're required to be in the class zoom starting at 10AM ET
 
 _Failure to make an attendance check will result in an unexcused absence for both morning or/and afternoon for that day_.
 
