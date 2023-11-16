@@ -87,7 +87,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 ## How to Submit Your Project
 
-Your project is due on **Wednesday, August 31st at 5:30PM ET**. You will present your project and show your code to classmates and instructors.
+Your project is due on **Sat, Dec 2nd at 5:30PM ET**. You will present your project and show your code to classmates and instructors.
 
 :heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/SEIR-Flex-0821/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name+%28Group+Number%29).
 
