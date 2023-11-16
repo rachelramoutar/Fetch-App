@@ -155,10 +155,10 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 ## Inspiration - Projects by Previous SEI Students
 
-- [Drawing with Friends](https://drawing-with-friends.online/)
-- [Brain Defogger](https://baindefogger.herokuapp.com/)
-- [CrimeFlix](https://crimeflix.herokuapp.com/user)
-- [SkillUP](https://skillupapp.herokuapp.com/login)
-- [Ken's Kitchen](http://kenskitchen.herokuapp.com/)
-- [Poetry Wall](https://poetry-wall.herokuapp.com/poems)
-- [Travel Planning](https://travel-planning-project.herokuapp.com/)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
