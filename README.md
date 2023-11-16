@@ -110,7 +110,7 @@ We ask that you take the following steps when dealing with technical questions..
 
 After these steps if you still facing the issue, post your question on the Debugging Channel in
 Slack.
-Explain your issue and post a piece of your code in the thread, so the channel don't get to much clutter.
+Explain your issue and post a screenshot of your code in the thread, so the issue does not get lost in a sea of screenshots.
 
 If your question is non-technical -- you're feeling overwhelmed, or you have questions about a homework or project prompt -- please reach out directly to an **ALL instructors in the SAME chat** as soon as possible.
 
