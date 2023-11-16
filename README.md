@@ -5,18 +5,18 @@
 ## Attendance
 We will be holding stand ups with instructors to have a daily check on the progress your application.
 
-There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Tues/Wed)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
+There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Mon/Thu)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
 
 We also will take attendance during project week, as follows:
 
   - **Daily (Each Class Day)**: Your attendance will be taken during standups
-  - **Wed, March 18th**: Project presentation day! You're required to be in the class zoom starting at 10AM ET
+  - **Sat, Dec 2nd**: Project presentation day! You're required to be in the class zoom starting at 10AM ET
 
-_Failure to make an attendance check will result in an unexcused absence for both morning or/and afternoon for that day_.
+_Failure to make an attendance check will result in an unexcused absence for both morning and/or afternoon for that day_.
 
 ## Project Proposals:
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Sat, August 20th by 6pm ET**.  Make sure you complete **all of the prompts**.  
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/SEIR-Flex-0821/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Mon, Nov 20th by 6pm ET**.  Make sure you complete **all of the prompts**.  
 
 Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
@@ -89,7 +89,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 Your project is due on **Wednesday, August 31st at 5:30PM ET**. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-cosmos/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
+:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/SEIR-Flex-0821/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name+%28Group+Number%29).
 
 Your issue should include:
 
@@ -149,7 +149,7 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 * **[Mongo Documentation](https://docs.mongodb.com/manual/)**
 * **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/seirfx-cosmos/student-resources/wiki/Mongo-Cheatsheet)**
+* **[Mongo Cheatsheet](https://git.generalassemb.ly/SEIR-Flex-0821/SEIR-0821-Course-Materials/wiki/Mongo)**
 </details>
 <hr>  
 
