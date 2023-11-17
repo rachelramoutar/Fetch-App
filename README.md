@@ -155,7 +155,8 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 ## Inspiration - Projects by Previous SEI Students
 
-- []()
+- [RecipeApp](https://rsfrecipes.onrender.com/)
+- [Best Reads](https://bestreads.onrender.com/)
 - []()
 - []()
 - []()
