@@ -11,17 +11,17 @@ assignees: ''
 > A name for your Project  
 
 ## Project Description
-> Include:<br />
-> General App Idea/Purpose<br />
-> Models including field names and their datatypes<br />
-> A list of routes (e.g. `POST /pins/ allows users to post a picture of a pin`)<br />
+> Include:
+> General App Idea/Purpose
+> Models including field names and their datatypes
+> A list of routes (e.g. `POST /pins/ allows users to post a picture of a pin`)
 
 ## Wireframes
-> Wireframes with basic page layouts<br />
+> Wireframes with basic page layouts
 > Copy and paste or drag and drop your images here.
 
 ## User Stories
-> User stories detailing app functionality<br />
+> User stories detailing app functionality
 > Add user stories following the _As a [type of user], I want [what the user wants], so that [what it helps accomplish]_ format.
 
 ### MVP Goals
