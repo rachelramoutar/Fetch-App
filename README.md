@@ -63,7 +63,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 ## Setup for Render Deployment
 
-To prepare for the Heroku deployment lesson on **June 25th**, please make sure have a GitHub repository for your project and have a basic express server running.
+To prepare for the Render deployment lesson on **June 25th**, please make sure have a GitHub repository for your project and have a basic express server running.
 
 ## Technical Demonstration
 
