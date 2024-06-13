@@ -148,10 +148,10 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 ## Inspiration - Projects by Previous SEI Students
 
-- [RecipeApp](https://rsfrecipes.onrender.com/)
-- [Best Reads](https://bestreads.onrender.com/)
-- []()
-- []()
+- [RockyMountain Waterways](https://rockymountainwaterways-project.onrender.com/)
+- [Bon Bon Voyage](https://bon-bon-voyage-blog.onrender.com/)
+- [Spellbook](https://spellbook.herokuapp.com/)
+- [Disc Golf Course Explorer](https://disc-golf-course-explorer.herokuapp.com/courses)
 - []()
 - []()
 - []()
