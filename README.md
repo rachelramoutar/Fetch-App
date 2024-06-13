@@ -5,7 +5,7 @@
 ## Attendance
 We will be holding stand ups with instructors to have a daily check on the progress your application.
 
-There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Tue/Wed)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
+There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Tue/Wed)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed.  
 
 We also will take attendance during project week, as follows:
 
