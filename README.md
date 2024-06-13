@@ -1,22 +1,21 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly)
+[![General Assembly Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)](https://generalassemb.ly)
 
 # Project #2: Building Your First Full-Stack Application
 
 ## Attendance
 We will be holding stand ups with instructors to have a daily check on the progress your application.
 
-There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Mon/Thu)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
+There are no full day classes during project weeks, but we expect you to be working on your project from at least **6:30PM - 10:45PM ET (Tue/Wed)** and at least **10AM - 6PM ET (Sat)** during class days and be available during that time for TA hours or any meetings with instructors as needed. You are STILL required to show up to Outcomes during project weeks.   
 
 We also will take attendance during project week, as follows:
 
   - **Daily (Each Class Day)**: Your attendance will be taken during standups
-  - **Sat, Dec 2nd**: Project presentation day! You're required to be in the class zoom starting at 10AM ET
 
-_Failure to make an attendance check will result in an unexcused absence for both morning and/or afternoon for that day_.
+_Failure to make an attendance check will result in an unexcused absence for that day_.
 
 ## Project Proposals:
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/SEIR-Flex-0821/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Mon, Nov 20th by 6pm ET**.  Make sure you complete **all of the prompts**.  
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/SEBPT-EC-319/project-2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Tue, June 18th by 6:30pm ET**.  Make sure you complete **all of the prompts**.  
 
 Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
@@ -62,14 +61,9 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 :heavy_exclamation_mark: **REMEMBER:** For all projects, you will be creating the new repo's on [GitHub](https://github.com/), **not** GitHub Enterprise!
 
-## Setup for Heroku Deployment
+## Setup for Render Deployment
 
-We will walk through deploying your app to production next week. We'll use a service called Heroku. Feel free to read through the docs and see if you can deploy on your own.
-
-[Heroku Node App Deployment Docs](https://devcenter.heroku.com/categories/nodejs-support)
-
-To prepare for the Heroku deployment lesson on **November 27th**, please make sure have a GitHub repository for your project and have a basic express server running.
-
+To prepare for the Heroku deployment lesson on **June 25th**, please make sure have a GitHub repository for your project and have a basic express server running.
 
 ## Technical Demonstration
 
@@ -87,9 +81,9 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 
 ## How to Submit Your Project
 
-Your project is due on **Sat, Dec 2nd at 10AM ET**. You will present your project and show your code to classmates and instructors.
+Your project is due on **Wed, June 26th at 6:30PM ET**. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/SEIR-Flex-0821/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name+%28Group+Number%29).
+:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/SEBPT-EC-319/project-2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name+%28Group+Number%29).
 
 Your issue should include:
 
@@ -144,12 +138,11 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 
 <details><summary><strong>Useful Resources</strong></summary>
 
-* **[Heroku](http://www.heroku.com)**
+* **[Render](http://www.render.com)**
 * **[Good User Story Guide](https://www.atlassian.com/agile/project-management/user-stories)**
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 * **[Mongo Documentation](https://docs.mongodb.com/manual/)**
 * **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/SEIR-Flex-0821/SEIR-0821-Course-Materials/wiki/Mongo)**
 </details>
 <hr>  
 
