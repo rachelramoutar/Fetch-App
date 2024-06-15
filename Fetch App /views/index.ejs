@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Index</title>
+</head>
+<body>
+    <h1>Pet Index</h1>
+    <table>
+        <tr>
+            <% for (let i=0; i<allPets.length; i++){ %>
+            <td>Uploaded Image</td>
+            <td>
+                <a href="/fetch/<%=i%>">
+                <%=allPets[i].nameOfPet%>
+            </a>
+            </td>
+            <td>
+                <%=allPets[i].ownerFirstName%> <%=allPets[i].ownerLastName%>
+            </td>
+        </tr>
+        <% }%>
+    </table>
+</body>
+</html>
