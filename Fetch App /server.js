@@ -1,56 +1,35 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
-const port = 4000 
+const methodOverride = require('method-override')
+const fetchController = require('./controllers/fetchPup.js')
+const port = 3500 
 
-const pets= require('./models/fetch.js')
-console.log(pets)
+const mongoURI = 'mongodb+srv://rachelramoutar1:SEBPT319@sebpt-319.nqmdkxf.mongodb.net/fetch'
+
+// const pets = require('./models/fetch.js')
+// const Fetch = require('./fetch.js')
+// console.log(pets)
+
+async function connectToMongo(){
+    try{
+        await mongoose.connect(mongoURI)
+        console.log(`I'm connected to mongoDB`)
+    } catch (err){
+        console.error(err)
+    }
+}
+
+connectToMongo()
 
 //MIDDLEWARE
+app.use(express.static('public'))
 app.use(express.urlencoded({extended: true}))
-
-
-//INDEX
-app.get('/fetch', (req, res)=>{
-    res.render('index.ejs', {
-        pets: allPets
-    })
-})
-
-//NEW
-app.get('/fetch/new', (req, res)=>{
-    res.render('new.ejs')
-})
-
-//DELETE
-
-
-
-//UPDATE
-app.put('/fetch/:id', (req, res)=>{
-    res.redirect('/fetch')
-})
-
-//CREATE
-app.post('/fetch', (req, res)=>{
-    res.redirect('/fetch')
-})
-
-//EDIT
-app.get('/fetch/:id/edit', (req, res)=>{
-    res.render('edit.ejs', {
-        fetch: editFetch
-    })
-})
-
-//SHOW
-app.get('/fruits/:id', (req, res)=>{
-    res.render('show.ejs', {
-        pet: pets[req.params.id]
-    })
-})
+app.use(methodOverride("_method"))
+app.use('/fetch', fetchController)
 
 
 app.listen(port, ()=>{
     console.log(`listening on ${port}`)
 })
+

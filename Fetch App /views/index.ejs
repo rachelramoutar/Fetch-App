@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch Index</title>
-</head>
-<body>
-    <h1>Pet Index</h1>
-    <table>
-        <tr>
-            <% for (let i=0; i<allPets.length; i++){ %>
-            <td>Uploaded Image</td>
-            <td>
-                <a href="/fetch/<%=i%>">
-                <%=allPets[i].nameOfPet%>
-            </a>
-            </td>
-            <td>
-                <%=allPets[i].ownerFirstName%> <%=allPets[i].ownerLastName%>
-            </td>
-        </tr>
-        <% }%>
-    </table>
-</body>
+
+<%-include ('./partials/head.ejs') %>
+    <%- include ('./partials/header.ejs') %>
+        <br>
+        <h1>Pet Profiles</h1>
+        </div>
+        <br>
+        <div>
+            <nav class="newPup">
+                <a href="/fetch/new">Add a Pup</a>
+        </div>
+        </nav>
+        <hr class="solid">
+        <br><br>
+        <body>
+
+            <div id="petBox">
+                <% for (let i=0; i<fetchPup.length; i++){ %>
+                    <div class="petProfile">
+                        <a id="pupName" href="/fetch/<%=fetchPup[i]._id%>">
+                            <%=fetchPup[i].nameOfPet%>
+                        </a>
+                        <div id="ownerName">
+                        <%=fetchPup[i].ownerFirstName%>
+                            <%=fetchPup[i].ownerLastName%>
+                        </div>
+                    </div>
+                    <br>
+                    <% }%>
+            </div>
+        </body>
+        <%- include ('./partials/footer.ejs') %>
+
 </html>

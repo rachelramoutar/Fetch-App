@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit a Pup</title>
-    <link rel="stylesheet" href="/css/app.css"/>
-    <script src="https://kit.fontawesome.com/a47001bced.js" crossorigin="anonymous"></script>
+    <title>User Profile</title>
 </head>
 <body>
-    <h1>Edit <%=fetchPup.nameOfPet%>'s Page</h1>
+    <h1>User Profile</h1>
     <form action="/fetch/<%=fetchPup._id%>?_method=PUT" method="POST">
         <input type="text" placeholder="name" name="name" value="<%=fetchPup.nameOfPet%>"><br>
         <input type="text" placeholder="color" name="color" value="<%=fetchPup.colorOfPet%>"><br>
