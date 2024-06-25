@@ -8,7 +8,7 @@
     <div id="newPupHeader">
         <h1>Add a New Pup</h1>
     </div>
-    <form action="/fetch" method="POST" enctype="multipart/form-data">
+    <form action="/fetch"  method="POST">
         <strong>
         First Name<br> <input type="text" name="ownerFirstName" placeholder="Owner First Name"><br><br>
         Last Name <br> <input type="text" name="ownerLastName" placeholder="Owner Last Name"><br><br>
@@ -16,10 +16,9 @@
         Pet Color <br> <input type="text" name="colorOfPet" placeholder="Color of Pet"><br><br>
         Pet Size <br> <input type="text" name="sizeOfPet" placeholder="Size of Pet"><br><br>
         Pet Age <br> <input type="number" name="ageOfPet" placeholder="Age of Pet"><br><br>
-        Upload Photo <br><input type="file" id="uploadPhoto" name="uploadPhoto" accept="image/png, image/jpeg, image/jpg" />
+    
     </strong>
-        <!-- Upload Vaccines <br> <input id="file" type="file"><br>
-        <button>Upload</button><br><br> -->
+
         <input id="addNew" type="submit" name="" value="Add a Pup">
     </form>
 

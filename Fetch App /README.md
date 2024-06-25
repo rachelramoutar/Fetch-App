@@ -4,7 +4,7 @@
 
 
 ## DESCRIPTION 
-#### Fetch is an application designed to allow members of Fetch park to create profiles for their dogs in a more streamlined and seamless manner. 
+Fetch is an application designed to allow members of Fetch park to create profiles for their dogs in a more streamlined and seamless manner. 
 
 ## TABLE OF CONTENTS
 * [Technologies Used](#technologiesused)
@@ -17,14 +17,15 @@
 ## <a name="technologiesused"></a>TECHNOLOGIES USED: 
 * HTML5 
 * CSS3 
+* JavaScript 
 * MongoDB 
 * EJS Partials 
 
-## ## <a name="features"></a>FEATURES
-#### Users can create a profile for themselves to begin using the app 
-#### Users can create a profile for their dog(s) as well as edit, delete, or update their profiles. 
-#### Users can view the how busy a location is at any given time 
-#### Users can check into a location 
+## <a name="features"></a>FEATURES
+* Users can create a profile for themselves to begin using the app 
+* Users can create a profile for their dog(s) as well as edit, delete, or update their profiles. 
+* Users can view the how busy a location is at any given time 
+* Users can check into a location 
 
 ## Jira Planning 
 * https://rachelramoutar.atlassian.net/jira/software/projects/FA/boards/1
@@ -32,8 +33,8 @@
 ## <a name="design"></a>DESIGN
 * Design elements implemented using HTML5 and CSS3.
 * Wireframes: 
-
+![img](/public/imgs/FetchAppWireframe.png)
 
 ## <a name="futurefeatures"></a>FUTURE FEATURES
-* Allow the User 
+* Add a second model for Users 
 

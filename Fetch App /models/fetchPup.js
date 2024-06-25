@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const Schema = mongoose.Schema 
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const fetchSchema = new Schema({ 
     ownerFirstName: {type: String, required: true},
@@ -7,7 +7,7 @@ const fetchSchema = new Schema({
     nameOfPet: {type: String, required: true},
     colorOfPet: {type: String, required: true},
     sizeOfPet: {type: String, required: true},
-    ageOfPet: Number
+    ageOfPet: {type: String},
 })
 
 const FetchPup = mongoose.model('FetchPup', fetchSchema)

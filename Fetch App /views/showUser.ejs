@@ -7,26 +7,31 @@
 <body>
     <div>
         <h1 id="showName">
-            <%=showOne.nameOfPet%>'s Page
+            <%=showUser.ownerFirstName%>
         </h1>
     </div><br>
     <div>
-        <%=showOne.nameOfPet%>
+        <%=showUser.ownerLastName%>
     </div>
     <br>
     <div>
-        <%=showOne.colorOfPet%>
+        <%=showUser.ownerAge%>
     </div>
     <br>
     <div>
-        <%=showOne.sizeOfPet%>
+        <%=showUser.address%>
     </div>
     <br>
     <div>
-        <%=showOne.ageOfPet%>
+        <%=showUser.phoneNumber%>
     </div>
     <br>
-    <form id="deleteBtn" action="/fetch/<%=showOne._id%>?_method=DELETE" method="POST">
+    <div>
+        <%=showUser.email%>
+    </div>
+    <br>
+
+    <form id="deleteBtn" action="/fetchUser/<%=showUser._id%>?_method=DELETE" method="POST">
         <input type="submit" value="DELETE">
     </form>
     <br><br><br>
@@ -34,7 +39,7 @@
         <a href="/fetch">Back to Main</a>
         <br><br><br>
     </nav>
-    <a href="/fetch/<%=showOne.id; %>/edit">Edit</a>
+    <a href="/fetch/<%=showUser.id; %>/edit">Edit</a>
 </body>
 
 <%- include ('./partials/footer.ejs') %>
