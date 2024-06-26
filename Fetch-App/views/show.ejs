@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include ('./partials/head.ejs') %>
+    <%- include ('./partials/header.ejs') %>
+
+<body>
+    <div>
+        <h1 id="showName">
+            <%=showOne.nameOfPet%>'s Page
+        </h1>
+    </div><br>
+    <div>
+        <%=showOne.nameOfPet%>
+    </div>
+    <br>
+    <div>
+        <%=showOne.colorOfPet%>
+    </div>
+    <br>
+    <div>
+        <%=showOne.sizeOfPet%>
+    </div>
+    <br>
+    <div>
+        <%=showOne.ageOfPet%>
+    </div>
+    <br>
+    <form id="deleteBtn" action="/fetch/<%=showOne._id%>?_method=DELETE" method="POST">
+        <input type="submit" value="DELETE">
+    </form>
+    <br><br><br>
+    <nav>
+        <a href="/fetch">Back to Main</a>
+        <br><br><br>
+    </nav>
+    <a href="/fetch/<%=showOne.id; %>/edit">Edit</a>
+</body>
+
+<%- include ('./partials/footer.ejs') %>
+</html>
