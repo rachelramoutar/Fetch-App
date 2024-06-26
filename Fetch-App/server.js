@@ -12,6 +12,9 @@ const port = process.env.PORT || 3500;
 
 const mongoURI = process.env.MONGOURI;
 
+app.get('/', (req, res)=>{
+    res.redirect('/fetch')
+});
 
 async function connectToMongo(){
     try{
