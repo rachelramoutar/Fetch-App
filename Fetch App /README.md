@@ -33,7 +33,7 @@ Fetch is an application designed to allow members of Fetch park to create profil
 ## <a name="design"></a>DESIGN
 * Design elements implemented using HTML5 and CSS3.
 * Wireframes: 
-![img](/public/imgs/FetchAppWireframe.png)
+![img](/imgs/FetchAppWireframe.png)
 
 ## <a name="futurefeatures"></a>FUTURE FEATURES
 * Allow users to upload photos of themselves and their pet
