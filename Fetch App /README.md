@@ -22,7 +22,7 @@ Fetch is an application designed to allow members of Fetch park to create profil
 * EJS Partials 
 
 ## <a name="features"></a>FEATURES
-* Users can create a profile for themselves to begin using the app 
+* Users can create a profile for themselves to begin using the app as well as edit, delete, or update their profiles.
 * Users can create a profile for their dog(s) as well as edit, delete, or update their profiles. 
 * Users can view the how busy a location is at any given time 
 * Users can check into a location 
@@ -36,5 +36,6 @@ Fetch is an application designed to allow members of Fetch park to create profil
 ![img](/public/imgs/FetchAppWireframe.png)
 
 ## <a name="futurefeatures"></a>FUTURE FEATURES
-* Add a second model for Users 
+* Allow users to upload photos of themselves and their pet
+* 
 

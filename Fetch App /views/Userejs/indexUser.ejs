@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include ('./partials/head.ejs') %>
+    <%- include ('./partials/header.ejs') %>
+        <br>
+        <h1>User Profiles</h1>
+        </div>
+        <br>
+        <div>
+            <nav class="newUser">
+                <a href="/newUser">Add a New User</a>
+        </div>
+        </nav>
+        <hr class="solid">
+        <br><br>
+
+        <body>
+
+            <div id="userBox">
+                <% for (let i=0; i<fetchUser.length; i++){ %>
+                    <div class="userProfile">
+                        <a id="userName" href="/fetchUser/<%=fetchUser[i]._id%>">
+                            <div id="ownerName">
+                                <%=fetchUser[i].ownerFirstName%>
+                                    <%=fetchUser[i].ownerLastName%>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <br>
+            <% }%>
+                </div>
+        </body>
+        <%- include ('./partials/footer.ejs') %>
+
+</html>

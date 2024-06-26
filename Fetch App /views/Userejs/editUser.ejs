@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<%- include ('./partials/head.ejs')
     <title>Edit a User</title>
-    <link rel="stylesheet" href="/css/app.css"/>
-    <script src="https://kit.fontawesome.com/a47001bced.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Edit <%=fetchUser.nameOfPet%>'s Page</h1>
-    <form action="/fetch/<%=fetchUser._id%>?_method=PUT" method="POST">
+    <h1>Edit <%=fetchUser.ownerFirstName%>'s Page</h1>
+    <form action="/fetchUser/<%=fetchUser._id%>?_method=PUT" method="POST">
         <input type="text" placeholder="Owner First Name" name="ownerFirstName" value="<%=fetchUser.ownerFirstName%>"><br><br>
         <input type="text" placeholder="Owner Last Name" name="ownerLastName" value="<%=fetchUser.ownerLastName%>"><br><br>
         <input type="text" placeholder="color" name="color" value="<%=fetchUser.colorOfPet%>"><br><br>

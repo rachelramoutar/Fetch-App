@@ -3,17 +3,17 @@ const router = express.Router();
 const UserProfile = require('../models/userProfile.js');
 
 //INDEX
-// router.get('/', async (req, res) => {
-//     try {
-//         const fetchUser = await UserProfile.find({})
-//         console.log(fetchAll)
-//         res.render('index.ejs', {
-//             fetchPup: fetchAll
-//         })
-//     } catch (err) {
-//         console.error(err)
-//     }
-// })
+router.get('/', async (req, res) => {
+    try {
+        const fetchUsers = await UserProfile.find({})
+        console.log(fetchUsers)
+        res.render('indexUser.ejs', {
+            fetchUser: fetchUsers
+        })
+    } catch (err) {
+        console.error(err)
+    }
+})
 
 //NEW
 router.get('/newUser', (req, res) => {
@@ -24,7 +24,7 @@ router.get('/newUser', (req, res) => {
 router.delete('/:id', async (req, res) => {
     try {
         await UserProfile.findByIdAndDelete(req.params.id)
-        res.redirect('/UserProfile')
+        res.redirect('/fetchUser')
     } catch (err) {
         console.error(err)
     }
@@ -35,7 +35,7 @@ router.delete('/:id', async (req, res) => {
 router.put('/:id', async (req, res) => {
     try {
         const updatedUser = await UserProfile.findByIdAndUpdate(req.params.id, req.body, { new: true })
-        res.redirect('/UserProfile')
+        res.redirect('/fetchUser')
     } catch (err) {
         console.error(err)
     }
@@ -47,7 +47,7 @@ router.post('/', async (req, res) => {
     try {
         const createdUser = await UserProfile.create(req.body)
         console.log(req.body)
-        res.redirect('/UserProfile')
+        res.redirect('/indexUser')
     } catch (err) {
         console.error(err)
     } 

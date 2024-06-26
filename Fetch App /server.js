@@ -6,10 +6,11 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const fetchController = require('./controllers/fetchPup.js');
 const userController = require('./controllers/userProfile.js');
+require("dotenv").config();
 
-const port = 3500;
+const port = process.env.PORT || 3500;
 
-const mongoURI = 'mongodb+srv://rachelramoutar1:SEBPT319@sebpt-319.nqmdkxf.mongodb.net/fetch'
+const mongoURI = process.env.MONGOURI;
 
 
 async function connectToMongo(){
