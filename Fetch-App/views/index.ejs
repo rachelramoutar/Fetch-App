@@ -14,6 +14,7 @@
         </nav>
         <hr class="solid">
         <br><br>
+
         <body>
 
             <div id="petBox">
@@ -23,12 +24,14 @@
                             <%=fetchPup[i].nameOfPet%>
                         </a>
                         <div id="ownerName">
-                        <%=fetchPup[i].ownerFirstName%>
-                            <%=fetchPup[i].ownerLastName%>
+                            <%=fetchPup[i].ownerFirstName%>
+                                <%=fetchPup[i].ownerLastName%>
                         </div>
                         <br>
-                        <div>
+                        <div id="indexColor">
                             <%=fetchPup[i].colorOfPet%>
+                        </div>
+                        <div id="indexSize">
                             <%=fetchPup[i].sizeOfPet%>
                         </div>
                     </div>
