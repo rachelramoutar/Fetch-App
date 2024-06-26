@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const fetchController = require('./controllers/fetchPup.js');
-const userController = require('./controllers/userProfile.js');
+// const userController = require('./controllers/userProfile.js');
 require("dotenv").config();
 
 const port = process.env.PORT || 3500;
@@ -33,7 +33,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(methodOverride("_method"))
 app.use('/fetch', fetchController)
-app.use('/fetchUser', userController)
+// app.use('/fetchUser', userController)
 
 
 app.listen(port, ()=>{

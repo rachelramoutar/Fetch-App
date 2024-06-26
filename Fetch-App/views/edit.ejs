@@ -9,14 +9,13 @@
 </head>
 <body>
     <h1>Edit <%=fetchPup.nameOfPet%>'s Page</h1>
-    <form action="/fetch/<%=fetchPup._id%>?_method=PUT" method="POST">
+    <form action="/fetch/<%=fetchPup.id%>?_method=PUT" method="POST">
         <input type="text" placeholder="Pet Name" name="nameofPet" value="<%=fetchPup.nameOfPet%>"><br><br>
         <input type="text" placeholder="Owner First Name" name="ownerFirstName" value="<%=fetchPup.ownerFirstName%>"><br><br>
         <input type="text" placeholder="Owner Last Name" name="ownerLastName" value="<%=fetchPup.ownerLastName%>"><br><br>
-        <input type="text" placeholder="color" name="color" value="<%=fetchPup.colorOfPet%>"><br><br>
-        <input type="text" placeholder="size" name="size" value="<%=fetchPup.sizeOfPet%>"><br><br>
-        <input type="number" placeholder="age" name="age" value="<%=fetchPup.ageOfPet%>"><br><br>
-        
+        <input type="text" placeholder="color" name="colorOfPet" value="<%=fetchPup.colorOfPet%>"><br><br>
+        <input type="text" placeholder="size" name="sizeOfPet" value="<%=fetchPup.sizeOfPet%>"><br><br>
+        <input type="number" placeholder="age" name="ageofPet" value="<%=fetchPup.ageOfPet%>"><br><br>
         <input type="submit" name="" value="Save Changes"/>
     </form>
 </body>
