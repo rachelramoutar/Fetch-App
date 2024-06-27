@@ -39,7 +39,7 @@ Fetch is an application designed to allow members of Fetch park to create profil
 * Users can check into a location 
 
 ## <a name="deployedapp"></a>DEPLOYED APP 
-The Fetch App can be accessed via this link: [Github.com](https://github.com/rachelramoutar/Fetch-App.git)
+The Fetch App can be accessed via this link: [https://fetch-app-wmzx.onrender.com](https://fetch-app-wmzx.onrender.com)
 
 ## <a name="abouttheauthor"></a>ABOUT THE AUTHOR
 
