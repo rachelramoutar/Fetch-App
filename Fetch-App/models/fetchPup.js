@@ -8,7 +8,6 @@ const fetchSchema = new Schema({
     colorOfPet: { type: String, required: true },
     sizeOfPet: { type: String, required: true },
     ageOfPet: { type: String },
-    dateOfBirth: { type: Date },
 })
 
 const FetchPup = mongoose.model('FetchPup', fetchSchema)
