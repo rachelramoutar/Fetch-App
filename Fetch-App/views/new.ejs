@@ -4,24 +4,24 @@
 <%-include ('./partials/head.ejs') %>
     <%- include ('./partials/header.ejs') %>
 
-<body>
-    <div id="newPupHeader">
-        <h1>Add a New Pup</h1>
-    </div>
-    <form action="/fetch/new"  method="POST">
-        <strong>
-        First Name<br> <input type="text" name="ownerFirstName" placeholder="Owner First Name"><br><br>
-        Last Name <br> <input type="text" name="ownerLastName" placeholder="Owner Last Name"><br><br>
-        Pet Name <br> <input type="text" name="nameOfPet" placeholder="Name of Pet"><br><br>
-        Pet Color <br> <input type="text" name="colorOfPet" placeholder="Color of Pet"><br><br>
-        Pet Size <br> <input type="text" name="sizeOfPet" placeholder="Size of Pet"><br><br>
-        Pet Age <br> <input type="number" name="ageOfPet" placeholder="Age of Pet"><br><br>
-    
-    </strong>
+        <body>
+            <div id="newPupHeader">
+                <h1>Add a New Pup</h1>
+            </div>
+            <form action="/fetch/new" method="POST">
+                <strong>
+                    First Name<br> <input type="text" name="ownerFirstName" placeholder="Owner First Name"><br><br>
+                    Last Name <br> <input type="text" name="ownerLastName" placeholder="Owner Last Name"><br><br>
+                    Pet Name <br> <input type="text" name="nameOfPet" placeholder="Name of Pet"><br><br>
+                    Pet Color <br> <input type="text" name="colorOfPet" placeholder="Color of Pet"><br><br>
+                    Pet Size <br> <input type="text" name="sizeOfPet" placeholder="Size of Pet"><br><br>
+                    Pet Age <br> <input type="number" name="ageOfPet" placeholder="Age of Pet"><br><br>
+                </strong>
 
-        <input id="addNew" type="submit" name="" value="Add a Pup">
-    </form>
+                <input id="addNew" type="submit" name="" value="Add a Pup">
+            </form>
 
-</body>
-<%- include ('./partials/footer.ejs') %>
+        </body>
+        <%- include ('./partials/footer.ejs') %>
+
 </html>
