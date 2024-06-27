@@ -7,7 +7,7 @@ const fetchSchema = new Schema({
     nameOfPet: { type: String, required: true },
     colorOfPet: { type: String, required: true },
     sizeOfPet: { type: String, required: true },
-    ageOfPet: { type: String },
+    ageOfPet: { type: String},
 })
 
 const FetchPup = mongoose.model('FetchPup', fetchSchema)
